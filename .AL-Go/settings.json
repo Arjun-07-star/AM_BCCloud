@@ -1,5 +1,6 @@
 {
   "applicationFamily": "BusinessCentral",
+  "defaultEnvironment": "Sandbox",
   "environments": [
     {
       "name": "Sandbox",
