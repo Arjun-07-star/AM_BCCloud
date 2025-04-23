@@ -2,6 +2,12 @@ name: ' CI/CD'
 
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to (e.g., Sandbox)'
+        required: true
+        default: 'Sandbox'
+
   push:
     paths-ignore:
       - '**.md'
