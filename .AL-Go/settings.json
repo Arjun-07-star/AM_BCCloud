@@ -1,6 +1,13 @@
 {
-  "country": "us",
-  "appFolders": [],
-  "testFolders": [],
-  "bcptTestFolders": []
+  "applicationFamily": "BusinessCentral",
+  "environments": [
+    {
+      "name": "Sandbox",
+      "environmentName": "SandBox-250417101835",
+      "type": "Sandbox",
+      "tenant": "97b3df6e-d735-4cca-8bd9-073f91547d27",
+      "appId": "fe0b00fb-add8-4b45-812d-682ec151c389"
+    }
+  ]
 }
+
