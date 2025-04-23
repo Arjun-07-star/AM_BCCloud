@@ -21,6 +21,10 @@ table 50100 CustomTest
         {
             Caption = 'Description';
         }
+        field(5; Address2; Code[30])
+        {
+            Caption = 'Address2';
+        }
     }
     keys
     {
